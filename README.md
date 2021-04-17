@@ -9,5 +9,5 @@
 
 A very simple records shop realized with Laravel. You can add items to your shopping cart and navigate through categories. For those who have access, all the CRUD actions are implemented through an Admin Panel
 
-![capture]()
+![capture](https://github.com/melaniag95/records-shop/blob/cdca4ebee1e4411e99f4192f83f2b43a92ea98a0/capture%20(1).gif)
 
