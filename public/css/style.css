@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Logo e navbar*/
+#logo-img{
+    width: 50px
+}
+
+.hvr-icon-hang{
+    z-index: 99999;
+}
+
+
+/*Stile titoli principali*/
+.main-title, .nav-link{
+    font-family: 'Syne Mono', monospace;
+    font-weight: bold;
+}
+
+/*Stile articoli home page*/
+.record-container{
+    width: 24%;
+    min-width: 200px;
+    position: relative;
+}
+
+.record-container img{
+    width: 100%;
+}
+
+div.items-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.card-body h5{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+}
+
+div.card-body p.card-text{
+    font-size: 1rem;
+}
+
+.detail-card{
+    text-align: center;
+}
+
+div.top-artists-container a{
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+/*Pagina catalogo*/
+div.record-card-container{
+    opacity: 0.95;
+}
+
+div.cart-container{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.cart-container a{
+    display: inline-block;
+}
+
+.page-container{
+    background-color: #d9d9d9;
+    height: 100%;
+    overflow: visible;
+}
+
+/*Dettaglio*/
+.div-card-container{
+    width:60%;
+}
+
+div.card-text p{
+    font-family: 'Slabo 27px', 'serif';
+    font-size: 1.5em;
+}
+
+
+
+/*Stile footer*/
+footer div.shipping-info{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer div.text-center{
+    width: 25%;
+}
+
+@media screen and (max-width:480px){
+    footer div.shipping-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.text-center{
+        width: 80%;
+    }
+}
